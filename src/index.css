@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap");
+
+:root {
+  font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+  background: #f5faf3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  font-smooth: always;
+  --fresh-green: #238636;
+  --fresh-green-dark: #17692a;
+  --fresh-ink: #183f27;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 95px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body, button, input, textarea {
+  font-family: "DM Sans", "Segoe UI", Arial, sans-serif;
+}
+
+button, input, textarea {
+  font-size: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+  outline: 3px solid #88c98e;
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  text-align: left;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Manrope", "DM Sans", "Segoe UI", sans-serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+::selection {
+  color: #fff;
+  background: #238636;
+}
